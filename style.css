@@ -1,0 +1,655 @@
+/*$banner-color-3: #ef2764;*/
+@font-face {
+  font-family: 'Satisfy';
+  src: url("fonts/Satisfy-Regular.ttf");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000345}}
+.hidden {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000349}}
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000353}}
+body {
+  background-color: #F3F3F3;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000355}}
+body a {
+  transition: all .4s ease-in-out;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000360}}
+.container {
+  margin-top: 20px;
+}
+@media (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000360}}
+  .container {
+    width: 960px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000367}}
+.header,
+.header-navigation {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000375}}
+.logo {
+  float: left;
+  width: 80px;
+  margin: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000381}}
+img {
+  width: 100%;
+  height: auto;
+  transition: all .4s ease-in-out;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000387}}
+.header .btn-default {
+  text-decoration: none;
+  color: #2D2D2D;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-color: transparent;
+  background-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000326}}
+.header .btn-default:hover {
+  color: #89e878;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000391}}
+.header .btn-default:hover {
+  background-color: #89e878;
+  color: #2D2D2D;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000397}}
+.header-navigation .btn-default {
+  border-left-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000399}}
+.header-navigation .btn-default:hover {
+  background-color: #89e878;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003104}}
+.top-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 10px;
+  justify-content: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003111}}
+.breadcrumb {
+  background-color: transparent;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003115}}
+.breadcrumb li a {
+  text-decoration: none;
+  color: #2D2D2D;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000326}}
+.breadcrumb li a:hover {
+  color: #89e878;
+}
+@media (min-width: 960px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003111}}
+  .breadcrumb {
+    margin: 0;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003122}}
+.breadcrumb .dropdown-menu {
+  position: absolute;
+  left: 40%;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003126}}
+.breadcrumb .dropdown-menu li {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003132}}
+.phone {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 10px;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003137}}
+.phone a {
+  text-decoration: none;
+  color: #2D2D2D;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000326}}
+.phone a:hover {
+  color: #89e878;
+}
+@media (min-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003137}}
+  .phone a {
+    font-size: 16px;
+  }
+}
+@media (min-width: 769px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003132}}
+  .phone {
+    margin: 0px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003149}}
+.icon {
+  font-size: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003153}}
+.breadcrumb > li + li:before {
+  color: #2D2D2D !important;
+  padding: 0 8px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003158}}
+.search {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 10px;
+  justify-content: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003165}}
+.cart {
+  border-color: transparent;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003167}}
+.cart:hover {
+  border-color: transparent;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003172}}
+.open > .dropdown-toggle.btn-default:hover {
+  background-color: #89e878;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003176}}
+.wrapper-container {
+  background-color: #fff;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003181}}
+.main-menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003190}}
+.content .breadcrumb > li + li:before {
+  padding: 0 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003194}}
+.jumbotron {
+  padding: 0 !important;
+  margin: 0;
+  position: relative;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003200}}
+.jumbotron-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  left: 74%;
+  color: #fff;
+  font-family: "Satisfy";
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+  width: 50%;
+}
+@media (min-width: 750px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003200}}
+  .jumbotron-text {
+    font-size: 56px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003214}}
+.banner {
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003218}}
+.wrapper-for-banner {
+  min-height: 270px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003220}}
+.wrapper-for-banner:hover {
+  box-shadow: inset 0 0 0 10px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003226}}
+.banner-link {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #2D2D2D;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000326}}
+.banner-link:hover {
+  color: #89e878;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003230}}
+.banner-link:hover {
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003233}}
+.banner-link .banner-content {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+  line-height: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003241}}
+.banner-link .middle-bunner-text {
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003244}}
+.banner-link .big-bunner-text {
+  font-size: 28px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003248}}
+.banner-link .small-bunner-text {
+  font-size: 12px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003253}}
+.banner-color-1 {
+  background-color: #c82928;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003257}}
+.banner-color-2 {
+  background-color: #89e878;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003261}}
+.wrapper-for-banner-image {
+  height: 540px;
+  cursor: pointer;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003266}}
+.wrapper-for-banner-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 540px;
+  transform-origin: 0 -50%;
+  z-index: -100;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003275}}
+.wrapper-for-banner-image:hover img {
+  transform: scale(1.1) translate(-50%, -50%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003278}}
+.wrapper-for-banner-image:hover .banner-content {
+  background-color: rgba(255, 255, 255, 0.88);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003282}}
+.wrapper-for-banner-image .banner-content {
+  width: 62%;
+  padding: 40px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #32aa1d;
+  line-height: 46px;
+}
+@media (min-width: 410px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003282}}
+  .wrapper-for-banner-image .banner-content {
+    width: 62%;
+    padding: 50px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003291}}
+.wrapper-for-banner-image .banner-content .big-bunner-text {
+  font-family: "Satisfy";
+  font-size: 35px;
+  text-transform: none;
+  font-weight: 300;
+}
+@media (min-width: 410px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003291}}
+  .wrapper-for-banner-image .banner-content .big-bunner-text {
+    font-size: 42px;
+  }
+}
+@media (min-width: 990px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003291}}
+  .wrapper-for-banner-image .banner-content .big-bunner-text {
+    font-size: 48px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003303}}
+.wrapper-for-banner-image .banner-content .small-bunner-text {
+  font-weight: 600;
+  font-size: 13px;
+}
+@media (min-width: 990px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003303}}
+  .wrapper-for-banner-image .banner-content .small-bunner-text {
+    font-size: 16px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003314}}
+.wrapper-for-banner-image .banner-content-color-1 {
+  color: #c82928;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003320}}
+.wrapper-for-banner-image .banner-content-color-2 {
+  color: #88147e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003326}}
+.wrapper-for-banner-image .banner-content-color-4 {
+  color: #56b4da;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003331}}
+.banner-color-3 {
+  background-color: #88147e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003335}}
+.banner-color-4 {
+  background-color: #56b4da;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003340}}
+.middle .jumbotron {
+  background-color: #F7F7F7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003342}}
+.middle .jumbotron .jumbotron-text {
+  top: 32%;
+  left: 30%;
+  width: 54%;
+  font-size: 20px;
+}
+@media (min-width: 460px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003342}}
+  .middle .jumbotron .jumbotron-text {
+    font-size: 23px;
+  }
+}
+@media (min-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003342}}
+  .middle .jumbotron .jumbotron-text {
+    left: 29%;
+    font-size: 34px;
+    width: 50%;
+  }
+}
+@media (min-width: 990px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003342}}
+  .middle .jumbotron .jumbotron-text {
+    font-size: 42px;
+  }
+}
+@media (min-width: 990px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003342}}
+  .middle .jumbotron .jumbotron-text {
+    top: 41%;
+    font-size: 55px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003363}}
+.middle .jumbotron .small-jumbotron-text {
+  font-size: 11px;
+  top: 72%;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  font-style: normal;
+}
+@media (min-width: 460px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003363}}
+  .middle .jumbotron .small-jumbotron-text {
+    font-size: 12px;
+    top: 62%;
+  }
+}
+@media (min-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003363}}
+  .middle .jumbotron .small-jumbotron-text {
+    left: 29%;
+    font-size: 14px;
+    top: 59%;
+  }
+}
+@media (min-width: 990px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003363}}
+  .middle .jumbotron .small-jumbotron-text {
+    font-size: 18px;
+    top: 65%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003386}}
+.jumbotron-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  left: 77%;
+  top: 80%;
+}
+@media (min-width: 460px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003386}}
+  .jumbotron-button {
+    top: 85%;
+    left: 29%;
+  }
+}
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003386}}
+  .jumbotron-button {
+    top: 80%;
+  }
+}
+@media (min-width: 990px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003386}}
+  .jumbotron-button {
+    top: 82%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003404}}
+.shop .nav-shop {
+  margin: 20px 0;
+  display: flex;
+  flex-flow: row nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003408}}
+.shop .nav-shop .breadcrumb {
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003411}}
+.shop .nav-shop .breadcrumb > li + li:before {
+  content: "|";
+  padding: 0 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003417}}
+.shop .shop-body .thumbnail {
+  padding: 0;
+  border: none;
+  background-color: #f5f5f5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003421}}
+.shop .shop-body .thumbnail .caption {
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003425}}
+.shop .shop-body .thumbnail .caption .btn-group {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003430}}
+.shop .shop-body .thumbnail .caption .goods-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003434}}
+.shop .shop-body .thumbnail .caption .price {
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003437}}
+.shop .shop-body .thumbnail .caption .rating {
+  margin: 10px 0 15px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003448}}
+.bottom .jumbotron .jumbotron-text {
+  top: 42%;
+  left: 50%;
+}
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003448}}
+  .bottom .jumbotron .jumbotron-text {
+    top: 28%;
+  }
+}
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003448}}
+  .bottom .jumbotron .jumbotron-text {
+    font-size: 52px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003458}}
+.bottom .jumbotron .small-jumbotron-text {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+  font-style: normal;
+  top: 60%;
+  font-size: 0;
+}
+@media (min-width: 600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003458}}
+  .bottom .jumbotron .small-jumbotron-text {
+    font-size: 14px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003468}}
+.bottom .jumbotron .jumbotron-button {
+  left: 50%;
+  top: 85%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003475}}
+footer {
+  margin: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003477}}
+footer .footer {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003479}}
+footer .footer .footer-menu-link {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003481}}
+footer .footer .footer-menu-link .footer-menu-link-block {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003485}}
+footer .footer .footer-menu-link .footer-menu {
+  list-style: none;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003488}}
+footer .footer .footer-menu-link .footer-menu li {
+  padding: 0 0 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003491}}
+footer .footer .footer-menu-link .footer-menu a {
+  text-decoration: none;
+  color: #2D2D2D;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\0000326}}
+footer .footer .footer-menu-link .footer-menu a:hover {
+  color: #89e878;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003497}}
+footer .footer .newsletter input {
+  margin: 0 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003501}}
+footer .footer h3 {
+  margin: 0;
+  text-transform: uppercase;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003505}}
+footer .footer p {
+  margin: 20px 0 10px;
+  color: #c7c7c7;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/anastasia\/MyFolder\/Development\/Bionic\/bionic2\/Bonsai\/style\.scss}line{font-family:\00003512}}
+.place-card .place-card-large {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
