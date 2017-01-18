@@ -12,5 +12,5 @@
 
 
 
-![1](bonsai.png)
-![2](bonsai2.png)
+![1](view/bonsai.png)
+![2](view/bonsai2.png)
