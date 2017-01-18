@@ -114,11 +114,11 @@ img {
 .breadcrumb {
 	background-color: transparent;
 	position: relative;
+	list-style: none;
 	.hidden-on-small {
 		display: none;
 		@media (min-width: 600px) {
 			display: inline-block;
-			
 		}
 		a {
 			position: relative;
